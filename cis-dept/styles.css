@@ -1,0 +1,41 @@
+:root {
+  height: 100%;
+  font-family:Arial, Helvetica, sans-serif;
+  background: linear-gradient(120deg, red, white 95%)
+}
+
+body {
+  background-color: #ffd7d7;
+  padding: 50px 50px 50px;
+  margin: 50px 100px 50px;
+  border: 10px dashed white;
+  border-radius: 100px;
+}
+
+main {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  width: 40%;
+  float: left;
+  height: 25em;
+}
+
+aside {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  width: 40%;
+  float: right;
+  height: 25em;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
+}
